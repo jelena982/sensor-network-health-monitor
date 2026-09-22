@@ -45,6 +45,7 @@ sensor-network-health-monitor/
 ├── reports/
 │   └── sensor_report.txt
 │
+├── .gitignore
 └── README.md
 ```
 
@@ -71,12 +72,13 @@ sensor_5 - CRITICAL - Sensor ERROR
 sensor_6 - WARNING - High Latency and Low Data Quality detected
 sensor_7 - No Data available for Latency
 sensor_8 - No Data available for Latency and Data Quality
+sensor_9 - No Data available for Data Quality
 
 Summary:
 Healthy: 1
 Warning: 3
 Critical: 2
-No Data: 2
+No Data: 3
 ```
 
 ## How to Run
