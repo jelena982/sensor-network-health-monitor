@@ -15,11 +15,11 @@ The project was created to practice Python, data processing, monitoring logic, t
 - Detects high latency and low data quality
 - Detects missing latency and data quality values
 - Identifies OFFLINE and ERROR sensor states
+- Detects unknown or unsupported sensor status values
 - Provides a reason for detected warnings
 - Counts sensors by health category
 - Generates a timestamped text report
 - Handles missing input files using Python exception handling
-- Detects unknown or unsupported sensor status values
 
 ## Monitoring Rules
 
@@ -62,6 +62,7 @@ sensor-network-health-monitor/
 
 ## Example Output
 
+```text
 Sensor Network Health Report
 Generated on: [timestamp]
 
@@ -83,6 +84,7 @@ Warning: 3
 Critical: 3
 No Data: 3
 Unknown Status: 1
+```
 
 ## How to Run
 
@@ -92,7 +94,7 @@ Install pandas if it is not already installed:
 pip install pandas
 ```
 
-Run the monitoring script:
+Run the monitoring script from the project root directory:
 
 ```bash
 python src/monitor.py
