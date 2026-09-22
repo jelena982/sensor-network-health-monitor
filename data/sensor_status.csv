@@ -1,0 +1,10 @@
+sensor_id,status,latency_ms,data_quality
+sensor_1,ONLINE,120,0.96
+sensor_2,ONLINE,1450,0.91
+sensor_3,OFFLINE,0,0
+sensor_4,ONLINE,180,0.72
+sensor_5,ERROR,0,0
+sensor_6,ONLINE,1500,0.60
+sensor_7,ONLINE,,0.95
+sensor_8,ONLINE,,
+sensor_9,ONLINE,1000,
