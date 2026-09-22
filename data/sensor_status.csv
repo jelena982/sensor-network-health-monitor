@@ -7,4 +7,6 @@ sensor_5,ERROR,0,0
 sensor_6,ONLINE,1500,0.60
 sensor_7,ONLINE,,0.95
 sensor_8,ONLINE,,
-sensor_9,ONLINE,1000,
+sensor_9,ONLINE,120,
+sensor_10,OFFLINE,,
+sensor_11,MAINTENANCE,150,0.94

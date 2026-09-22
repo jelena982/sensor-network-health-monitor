@@ -19,6 +19,7 @@ The project was created to practice Python, data processing, monitoring logic, t
 - Counts sensors by health category
 - Generates a timestamped text report
 - Handles missing input files using Python exception handling
+- Detects unknown or unsupported sensor status values
 
 ## Monitoring Rules
 
@@ -28,8 +29,9 @@ The project uses the following simulated monitoring rules:
 - **WARNING**: Sensor is ONLINE and latency is at least 1000 ms or data quality is 0.8 or lower
 - **HEALTHY**: Sensor is ONLINE and no warning conditions are detected
 - **No Data**: Latency, data quality, or both values are missing
+- **Unknown Status**: Sensor status is not recognized by the monitoring logic
 
-The thresholds used in this project are defined for demonstration purposes and do not represent thresholds from a real sensor network.
+The thresholds and sensor data used in this project are synthetic and defined for demonstration purposes. They do not represent thresholds or operational data from a real sensor network.
 
 ## Project Structure
 
@@ -60,9 +62,8 @@ sensor-network-health-monitor/
 
 ## Example Output
 
-```text
 Sensor Network Health Report
-Generated on: 2026-09-22 11:55:15
+Generated on: [timestamp]
 
 sensor_1 - HEALTHY - Sensor ONLINE
 sensor_2 - WARNING - High Latency detected
@@ -73,13 +74,15 @@ sensor_6 - WARNING - High Latency and Low Data Quality detected
 sensor_7 - No Data available for Latency
 sensor_8 - No Data available for Latency and Data Quality
 sensor_9 - No Data available for Data Quality
+sensor_10 - CRITICAL - Sensor OFFLINE
+sensor_11 - Unknown Status
 
 Summary:
 Healthy: 1
 Warning: 3
-Critical: 2
+Critical: 3
 No Data: 3
-```
+Unknown Status: 1
 
 ## How to Run
 

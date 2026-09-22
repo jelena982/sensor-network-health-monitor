@@ -1,5 +1,5 @@
 Sensor Network Health Report
-Generated on: 2026-09-22 12:11:29
+Generated on: 2026-09-22 14:12:08
 
 sensor_1 - HEALTHY - Sensor ONLINE
 sensor_2 - WARNING - High Latency detected
@@ -10,9 +10,12 @@ sensor_6 - WARNING - High Latency and Low Data Quality detected
 sensor_7 - No Data available for Latency
 sensor_8 - No Data available for Latency and Data Quality
 sensor_9 - No Data available for Data Quality
+sensor_10 - CRITICAL - Sensor OFFLINE
+sensor_11 - Unknown Status
 
 Summary:
 Healthy: 1
 Warning: 3
-Critical: 2
+Critical: 3
 No Data: 3
+Unknown Status: 1
